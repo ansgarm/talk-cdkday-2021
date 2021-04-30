@@ -4,4 +4,4 @@ This repo contains the code of the demo I showed on my talk "Extending CDK for T
 
 If you've any questions, feel free to reach out to me or drop an issue on this repo :)
 
-Slides are [here](./Extending CDKTF constructs - CDK Day 2021.pdf)
+Slides are [here](./Extending%20CDKTF%20constructs%20-%20CDK%20Day%202021.pdf)
