@@ -1,7 +1,7 @@
 import { TerraformOutput, TerraformStack } from "cdktf";
 import { Construct } from "constructs";
-import { DatabaseCluster as BaseDatabaseCluster, DatabaseFirewall, DigitaloceanProvider, Droplet } from "./.gen/providers/digitalocean";
-import { Grantor, GrantStrategy } from "./lib/grants";
+import { DatabaseCluster as BaseDatabaseCluster, DigitaloceanProvider, Droplet } from "./.gen/providers/digitalocean";
+import { Grantor } from "./lib/grants";
 
 const DatabaseCluster = Grantor(BaseDatabaseCluster);
 
